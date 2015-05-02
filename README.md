@@ -1,5 +1,5 @@
 # Laravel-Adminer
-Laravel 5 wrapper for Adminer.
+Laravel 5 wrapper for [Adminer](https://github.com/vrana/adminer/).
 Adminer is an excellent database management in a single PHP file written by Jakub Vrana.
 
 
@@ -8,6 +8,8 @@ To include the library, update `composer.json` file `require` section, with:
 ```
 "miroc/laravel-adminer": "dev-master"
 ```
+and run `composer update`.
+
 
 To add adminer to Laravel routes (e.g. /adminer), update `routes.php` file with:
 ```
