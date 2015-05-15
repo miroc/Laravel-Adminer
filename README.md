@@ -13,7 +13,7 @@ and run `composer update`.
 
 To add adminer to Laravel routes (e.g. /adminer), update `routes.php` file with:
 ```
-Route::any('adminer', '\Miroc\LaravelAdminer\AdminerController@index');`
+Route::any('adminer', '\Miroc\LaravelAdminer\AdminerController@index');
 ```
 
 ### Remarks
