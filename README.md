@@ -18,6 +18,14 @@ Route::any('adminer', '\Miroc\LaravelAdminer\AdminerController@index');
 
 ### Disabling CSRF Middleware
 Adminer doesn't work with VerifyCsrfToken middleware, so it has to be disabled on its route.
+#### Laravel 5.1
+In `VerifyCsrfToken.php` disable CSRF on adminer route by adding it to `$except` array:
+```
+protected $except = [
+    'adminer'
+];
+```
+
 #### Laravel 5.0
 The easiest way is to create a custom VerifyCsrfToken middleware that excludes selected routes:
 ```
