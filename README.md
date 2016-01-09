@@ -4,12 +4,10 @@ Adminer is an excellent database management tool in a single PHP file written by
 
 
 ## Usage
-To include the library, update `composer.json` file `require` section, with:
+To include the library, go to your project's folder and run:
 ```
-"miroc/laravel-adminer": "4.2.3"
+composer require "miroc/laravel-adminer"
 ```
-and run `composer update`.
-
 
 To add adminer to Laravel routes (e.g. /adminer), update `routes.php` file with:
 ```
@@ -19,7 +17,7 @@ Route::any('adminer', '\Miroc\LaravelAdminer\AdminerController@index');
 ### Disabling CSRF Middleware
 Adminer doesn't work with VerifyCsrfToken middleware, so it has to be disabled on its route.
 #### Laravel 5.1+
-In `VerifyCsrfToken.php` disable CSRF on adminer route by adding it to `$except` array:
+In `VerifyCsrfToken.php` disable CSRF by adding adminer route to `$except` array:
 ```
 protected $except = [
     'adminer'
