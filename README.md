@@ -6,7 +6,7 @@ Adminer is an excellent database management tool in a single PHP file written by
 ## Usage
 To include the library, update `composer.json` file `require` section, with:
 ```
-"miroc/laravel-adminer": "dev-master"
+"miroc/laravel-adminer": "4.2.3"
 ```
 and run `composer update`.
 
