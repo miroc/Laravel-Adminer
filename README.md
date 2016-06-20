@@ -14,6 +14,11 @@ To add adminer to Laravel routes (e.g. /adminer), update `routes.php` file with:
 Route::any('adminer', '\Miroc\LaravelAdminer\AdminerController@index');
 ```
 
+To autologin Adminer with Laravel default connection, add the following controller instead:
+```
+Route::any('adminer', '\Miroc\LaravelAdminer\AdminerAutologinController@index');
+```
+
 ### Disabling CSRF Middleware
 Adminer doesn't work with VerifyCsrfToken middleware, so it has to be disabled on its route.
 #### Laravel 5.1+
