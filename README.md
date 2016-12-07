@@ -6,7 +6,7 @@ Adminer is an excellent database management tool in a single PHP file written by
 ## Usage
 To include the library, go to your project's folder and run:
 ```
-composer require "miroc/laravel-adminer"
+composer require "imperat0r/laravel-adminer:dev-master"
 ```
 
 To add adminer to Laravel routes (e.g. /adminer), update `routes.php` file with:
