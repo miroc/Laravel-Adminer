@@ -2,12 +2,11 @@
 
 use Illuminate\Routing\Controller;
 
-class AdminerController extends Controller {
-
+class AdminerController extends Controller
+{
     public function index()
     {
-        require('adminer-4.2.4-en.php');
+        require('adminer-4.2.5-en.php');
         return new EmptyResponse();
     }
-
 }
