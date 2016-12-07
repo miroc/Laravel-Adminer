@@ -1,12 +1,12 @@
 {
-    "name": "miroc/laravel-adminer",
+    "name": "imperat0r/laravel-adminer",
     "description": "Adminer (by Jakub Vrana) wrapper for Laravel 5",
     "keywords": ["adminer", "laravel5", "database", "management"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Miroslav Svitok",
-            "email": "mirosvitok@gmail.com"
+            "name": "ImPerat0R_",
+            "email": "contactxjw@gmail.com"
         }
     ],
     "require": {
