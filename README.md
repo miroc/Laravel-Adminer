@@ -9,7 +9,7 @@ To include the library, go to your project's folder and run:
 composer require "miroc/laravel-adminer"
 ```
 
-To add adminer to Laravel routes (e.g. /adminer), update `routes.php` file with:
+To add adminer to Laravel routes (e.g. /adminer), update `routes/web.php` file with:
 ```
 Route::any('adminer', '\Miroc\LaravelAdminer\AdminerController@index');
 ```
