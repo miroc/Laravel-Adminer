@@ -6,7 +6,7 @@ class AdminerController extends Controller {
 
     public function index()
     {
-        require('adminer-4.2.5-en.php');
+        require('adminer-4.3.0-en.php');
         return new EmptyResponse();
     }
 
