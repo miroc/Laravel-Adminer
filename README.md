@@ -1,3 +1,6 @@
+**WARNING: This repository is unmaintained. Please use other Laravel-Adminer packages.**
+
+
 # Laravel-Adminer
 Laravel 5 wrapper for [Adminer](https://github.com/vrana/adminer/).
 Adminer is an excellent database management tool in a single PHP file written by Jakub Vrana. It's a great replacement for PhpMyAdmin (also supports PostgreSQL, SQLite, MS SQL, Oracle, Firebird, SimpleDB, Elasticsearch and MongoDB).
