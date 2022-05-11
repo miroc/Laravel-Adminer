@@ -27,6 +27,7 @@ class AdminerAutologinController extends AdminerController
             $_POST['auth']['password'] = Config::get("database.connections.$database_config.password");
         }
         
+        require_once (__DIR__ . "/adminer-sqlite-login.php");
         parent::index();
     }
 
